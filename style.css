@@ -1,0 +1,121 @@
+
+.naslov {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(75, 124, 45);
+    text-align: center;
+}
+
+.navigacija {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(195, 255, 169);
+    margin-top: 20px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100%;
+}
+
+ul>li {
+    height: 100%;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: center;
+    color: rgb(75, 124, 45);
+}
+
+ul>li:hover{
+    height: 30px;
+    background-color: rgb(75,124,45);
+    transition: 0.1s ease-in-out;
+}
+
+ul>li>a{
+    text-align: center;
+    height: 100%;
+    text-decoration: none;
+    color: rgb(75,124,45);
+    padding: 20px;
+    
+}
+ul>li>a:hover{
+    color: rgb(164,190,104);
+}
+
+body {
+    background-color: #fefa97;
+    justify-content: center;
+    color: #5a7e34;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 2vw;
+}
+
+div {
+    display: block;
+    width: 100%;
+}
+
+#tabele {
+    display: inline-block;
+    width: 50%;
+}
+
+.muzickakultura {
+    text-shadow: 0.5px 0.8px 10px rgb(70, 70, 70);
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 5vw;
+    margin: auto;
+    display: inline-block;
+}
+
+table, tr, td {
+    border: 2px solid black;
+}
+
+td {
+    width: 20%;
+    background-color: rgb(195, 255, 168);
+    color: black;
+}
+
+td > img, p, button {
+    margin: auto;
+    display: block;
+}
+
+.prvired {
+    background-color: #5a7e34;
+    color: #fefa97;
+    padding: 2%;
+}
+
+.prvakolona {
+    font-size: 30px;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+}
+
+footer {
+    background-color: #5a7e34;
+    color: #fefa97;
+    padding: 2%;
+}

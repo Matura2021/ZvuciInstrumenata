@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <title>Звуци инструмената</title>
+
+</head>
+<body>
+    <script src="main.js"></script>
+
+    <h1 class="naslov">ОСНОВНА ШКОЛА "СОЊА МАРИНКОВИЋ"</h1>
+
+    <div class="navigacija">
+        <ul>
+            <li><a href="index.html">ПОЧЕТНА</a></li>
+            <li><a href="Oautoru.html">O AUTORU</a></li>
+            <li><a href="UPUTSTVO.html">УПУТСТВО</a></li>
+        </ul>
+    </div>
+
+    <h3>ЗВУЦИ ИНСТРУМЕНАТА</h3>
+
+    <!--Pravljenje natpisa-->
+    <div class="sadrzajstrane">
+        <p class="muzickakultura">Музичка</p>
+        <p class="muzickakultura">култура</p>
+    </div>
+
+    <!--Pravljenje tabele za instrumente-->
+    <div id="tabele">
+        <table>
+            <!--Naslovi tabela-->
+            <tr>
+                <td class="prvired">Назив инструмента</td>
+                <td class="prvired">Слика инструмената</td>
+                <td class="prvired">Звук инструмената</td>
+            </tr>
+
+            <!--Podaci za gitaru-->
+            <tr>
+                <td class="prvakolona">Гитара</td>
+                <td><img src="slike/guitar.jpg" alt="slike/guitar.jpg" alt="gitara" id="gitara" onclick="otvoriSajt('gitara');"></td>
+                <td><img src="slike/speaker.png" alt="zvucnik" onmouseover="pustiZvuk('gitara')"><a href="SaznajViseOGitari.html">Сазнај више</a></button></td>
+            </tr>
+
+            <!--Podaci za violinu-->
+            <tr>
+                <td class="prvakolona">Виолина</td>
+                <td><img src="slike/violin.jpg" alt="slike/violin.jpg" alt="violina" id="violina" onclick="otvoriSajt('violina');"></td>
+                <td><img src="slike/speaker.png" alt="zvucnik" onmouseover="pustiZvuk('violina')"><a href="SaznajViseOViolini.html">Сазнај више</a></button></td>
+            </tr>
+ 
+            <!--Podaci za klavir-->
+            <tr>
+                <td class="prvakolona">Клавир</td>
+                <td><img src="slike/piano.jpg" alt="slike/piano.jpg" alt="klavir" id="klavir" onclick="otvoriSajt('klavir');"></td>
+                <td><img src="slike/speaker.png" alt="zvucnik" onmouseover="pustiZvuk('klavir')"><a href="SaznajViseOKlaviru.html">Сазнај више</a></button></td>
+            </tr>
+
+            <!--Podaci za bubnjeve-->
+            <tr>
+                <td class="prvakolona">Бубњеви</td>
+                <td><img src="slike/drums.gif" alt="slike/drums.jpg" alt="bubnjevi" id="bubnjevi" onclick="otvoriSajt('bubnjevi');"></td>
+                <td><img src="slike/speaker.png" alt="zvucnik" onmouseover="pustiZvuk('bubnjevi')"><a href="SaznajViseOBubnjevima.html">Сазнај више</a></button></td>
+            </tr>
+
+            <!--Podaci za harmoniku-->
+            <tr>
+                <td class="prvakolona">Хармоника</td>
+                <td><img src="slike/accordion.jpg" alt="slike/accordion.jpg" alt="harmonika" id="harmonika" onclick="otvoriSajt('harmonika');"></td>
+                <td><img src="slike/speaker.png" alt="zvucnik" onmouseover="pustiZvuk('harmonika')"><a href="SaznajViseOHarmonici.html">Сазнај више</a></button></td>
+            </tr>
+
+            <!--Podaci za kontrafagot-->
+             <tr>
+                <td class="prvakolona">Контрафагот</td>
+                <td><img src="slike/contrabassoon.jpg" alt="slike/contrabassoon.jpg" alt="kontrafagot" id="kontrafagot" onclick="otvoriSajt('kontrafagot');"></td>
+                <td><img src="slike/speaker.png" alt="zvucnik" onmouseover="pustiZvuk('kontrafagot')"><a href="SaznajViseOKontrafagotu.html">Сазнај више</a></button></td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+
+<footer>
+    <p>Copyright © Основна школа "Соња Маринковић"</p>
+</footer>
+
+</html>
